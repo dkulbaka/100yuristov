@@ -16,11 +16,6 @@
   }
 }
 
-// .container {}
-
-// .logo-link {}
-
-
 .search {
   padding: 14px 20px;
   display: flex;
@@ -29,8 +24,6 @@
   flex: 1 0 0;
   border-radius: 10px;
   background: var(--gray-background-color);
-
-  // &__label {}
 
   &__input {
     border: none;
@@ -42,13 +35,9 @@
     line-height: normal;
   }
 
-
-  // &__btn {}
-
-  // &__icon {}
 }
 
-.btn {
+.btn-icon {
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -91,7 +80,6 @@
     line-height: normal;
   }
 
-  //   &__icon {}
 }
 
 .nav {
@@ -113,7 +101,6 @@
   display: flex;
   align-items: center;
 
-  //   &__icon {}
   &__link {
     color: var(--black-color);
     font-size: 16px;
@@ -122,7 +109,6 @@
   }
 }
 
-// .login {}
 .signin::before {
   content: "/";
   padding-left: 5px;

@@ -12,6 +12,7 @@ html {
   height: 100%;
   font-family: var(--font-family, sans-serif);
   -webkit-text-size-adjust: 100%;
+  color: var(--black-color);
 }
 
 .page__body {
@@ -36,7 +37,8 @@ a {
 }
 
 .is-hidden {
-  display: none !important; /* stylelint-disable-line declaration-no-important */
+  display: none !important;
+  /* stylelint-disable-line declaration-no-important */
 }
 
 .btn-reset {
@@ -104,4 +106,11 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+.btn {
+  padding: 16px 36px;
+  border-radius: 10px;
+  background: var(--green-color);
+  color: var(--light-color);
 }

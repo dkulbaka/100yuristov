@@ -1,0 +1,73 @@
+.firstscreen {
+
+  &__inner {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__image-img {
+    margin-left: 106px;
+    min-width: 377px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.title {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subtitle {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.contactbar {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.phonebar {
+
+  &__link {
+    color: var(--green-color);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    border-bottom: 2px solid var(--green-color);
+  }
+
+  &__desc {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--gray-medium-color);
+  }
+}
+
+.advants {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.advant {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
