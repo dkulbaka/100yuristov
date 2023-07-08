@@ -1,0 +1,57 @@
+.legal {
+
+  &__inner {
+    margin-top: 98px;
+  }
+
+}
+
+.freelegal {
+
+  &__inner {
+    margin-top: 80px;
+  }
+
+  &__cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+.fl-cards {
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: calc((100% - 20px) / 4);
+    flex: 1 1 auto;
+  }
+
+}
+
+.fl-card {
+
+  &__desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__desc-strong {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__link {
+    margin-top: auto;
+    color: var(--green-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
